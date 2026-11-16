@@ -1,5 +1,3 @@
-import { Profiler } from "react"
-
 export default function App() {
   return (
     <>
