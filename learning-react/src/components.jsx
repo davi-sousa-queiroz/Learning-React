@@ -24,3 +24,21 @@ export function GameCard({name}) {
         </div>
     )
 }
+
+export function GameCardB({name, available}) {
+    if (available) {
+        return (
+            <div>
+                <h2>Name: {name}</h2>
+                <p>available.</p>
+            </div>
+        )
+    } else {
+        return (
+            <div>
+                <h2>Name: {name}</h2>
+                <p>Coming soon!</p>
+            </div>
+        )
+    }
+}

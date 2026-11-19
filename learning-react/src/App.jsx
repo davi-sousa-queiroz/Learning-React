@@ -1,4 +1,4 @@
-import { UserCard, UserAge, GameCard } from "./components"
+import { UserCard, UserAge, GameCard, GameCardB } from "./components"
 
 export default function App() {
 
@@ -7,6 +7,12 @@ export default function App() {
   "Minecraft",
   "Forza Horizon 6"
   ];
+
+  const gamesB = [
+  { name: "GTA VI", available: true },
+  { name: "Minecraft", available: true },
+  { name: "Forza Horizon 6", available: false }
+];
 
   return (
     <div>
@@ -19,6 +25,12 @@ export default function App() {
       {games.map(game => {
         return (
           <GameCard key={game} name={game} />
+        )
+      })}
+
+      {gamesB.map(game => {
+        return (
+          <GameCardB key={game.name} name={game.name} avalible={game.available} />
         )
       })}
     </div>
