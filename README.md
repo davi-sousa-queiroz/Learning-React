@@ -22,19 +22,6 @@ The repository also includes an `exercises/` folder containing smaller coding ex
 - JSX and JavaScript expressions
 - Props and data flow
 - Conditional rendering and lists
-- Event handling and user interaction
-- State management with `useState`
-- Rendering and state updates
-- Managing objects and arrays in state
-- Sharing and structuring state
-- Hooks (`useEffect`, `useRef`, custom Hooks)
-- Forms and controlled inputs
-- API requests and asynchronous JavaScript
-- Loading and error handling
-- Client-side routing with React Router
-- Reusable components and application architecture
-- Accessibility and semantic HTML
-- Environment variables and Error Boundaries
 
 ## 🎯 Goal
 
