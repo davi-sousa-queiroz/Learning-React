@@ -9,7 +9,7 @@ const data = {
 
 const quotes = [
   'A LITTLE PROGRESS, EVERYDAY',
-  'A space for your ideas, your foals, and the things you enjoy.',
+  'A space for your ideas, your goals, and the things you enjoy.',
   'Slow steps, Good things',
   'Ideas turning into little things',
   'Small steps, big possiblities.',
@@ -20,8 +20,7 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <Heading quotes={quotes} />
-
+      <Heading quotes={quotes} data={data} />
     </>
   )
 }
